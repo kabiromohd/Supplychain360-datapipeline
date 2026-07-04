@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: stg_inventory
+    description: "staging layer view of inventory levels."
+    columns:
+      - name: warehouse_id
+        description: "Foreign key for the warehouse."
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_warehouses')
+                field: warehouse_id
+
+      - name: product_id
+        description: "Foreign key for the product."
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_products')
+                field: product_id
+
+      - name: quantity_available
+        description: "Number of units currently in stock."
+
+      - name: reorder_threshold
+        description: "Safety stock level for reordering."
+        
+      - name: snapshot_date
+        description: "Inventory record date."

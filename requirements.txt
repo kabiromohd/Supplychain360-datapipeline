@@ -1,0 +1,13 @@
+pandas
+boto3
+psycopg2-binary
+
+google-api-python-client
+gspread
+google-auth
+
+pyarrow
+fastparquet
+
+python-dotenv
+requests

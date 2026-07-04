@@ -1,0 +1,19 @@
+{
+  "raw/inventory/inventory_2026-03-10.csv": "\"b33669888066483a9b1763ccad41e489\"",
+  "raw/inventory/inventory_2026-03-11.csv": "\"20790cd158194e5cedb3ac0ac43b0529\"",
+  "raw/inventory/inventory_2026-03-12.csv": "\"ef411af0ac46b34f80cd63c64036548e\"",
+  "raw/inventory/inventory_2026-03-13.csv": "\"0503b804bf0ed0c7cc71d963337105fe\"",
+  "raw/inventory/inventory_2026-03-14.csv": "\"f37f6ead991a6435231e17ff19adec3d\"",
+  "raw/inventory/inventory_2026-03-15.csv": "\"9ba6347e698fa110b9d07097b026b4ce\"",
+  "raw/inventory/inventory_2026-03-16.csv": "\"698b3e3635cac9afede13259dc667345\"",
+  "raw/products/products.csv": "\"15956fe7b524e1e7fc2976f92d27fc93\"",
+  "raw/shipments/shipments_2026-03-10.json": "\"9366580fc17bc527b4780b7ce9e07e29\"",
+  "raw/shipments/shipments_2026-03-11.json": "\"140b36a08e4bb9df016d0450b4ecec82\"",
+  "raw/shipments/shipments_2026-03-12.json": "\"7f9c2cb52f63a243f5068a943b1363be\"",
+  "raw/shipments/shipments_2026-03-13.json": "\"218f81a89f81ee0059eec6d4938b7329\"",
+  "raw/shipments/shipments_2026-03-14.json": "\"580a0372c2e0f3c0f73a305680046875\"",
+  "raw/shipments/shipments_2026-03-15.json": "\"7d592d404c45c984edf400edfbcd5454\"",
+  "raw/shipments/shipments_2026-03-16.json": "\"dfcfc831b30110ecbba4a29eb80f3493\"",
+  "raw/suppliers/suppliers.csv": "\"379b601ff0c842118ac425a23af0f936\"",
+  "raw/warehouses/warehouses.csv": "\"c59b41d12878acb2dd2742e137b95a8f\""
+}

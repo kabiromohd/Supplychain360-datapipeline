@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: stg_stores_sales
+    description: "staging layer view of retail transactions."
+    columns:
+      - name: transaction_id
+        description: "Primary key for the transaction."
+        tests:
+          - unique
+          - not_null
+      
+      - name: store_id
+        description: "Foreign key linking to the store."
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_stores_details')
+                field: store_id
+      
+      - name: product_id
+        description: "Foreign key linking to the product."
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_products')
+                field: product_id
+      
+      - name: quantity_sold
+        description: "Number of units sold."
+      
+      - name: unit_price
+        description: "Price per unit at point of sale."
+      
+      - name: discount_pct
+        description: "Discount percentage applied."
+      
+      - name: sale_amount
+        description: "Total value of the transaction."
+      
+      - name: transaction_timestamp
+        description: "Timestamp of the sale."
+
+      - name: file_date
+        description: "raw file creation date"

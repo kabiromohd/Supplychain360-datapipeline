@@ -1,0 +1,31 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Raw source data for SupplyChain360 platform ingested into Snowflake"
+    database: launchpad_capstone
+    schema: public
+
+    tables:
+      - name: inventory
+        description: "Snapshot of inventory levels per product at each warehouse."
+      
+      - name: stores_sales
+        description: "Transactional sales data."
+      
+      - name: shipments
+        description: "Records of product shipments from warehouses to stores."
+
+      - name: suppliers
+        description: "information about suppliers providing products."
+      
+      - name: warehouses
+        description: "List of warehouses where inventory is stored."
+      
+      - name: stores_details
+        description: "Retail store locations information."
+      
+      - name: products
+        description: "Catalog of products sold across stores."
+      
+      

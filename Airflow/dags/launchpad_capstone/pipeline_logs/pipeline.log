@@ -1,0 +1,28 @@
+2026-04-03 12:04:00,305 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/inventory/inventory_2026-03-10.csv
+2026-04-03 12:04:00,309 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/inventory/inventory_2026-03-11.csv
+2026-04-03 12:04:00,311 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/inventory/inventory_2026-03-12.csv
+2026-04-03 12:04:00,313 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/inventory/inventory_2026-03-13.csv
+2026-04-03 12:04:00,314 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/inventory/inventory_2026-03-14.csv
+2026-04-03 12:04:00,316 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/inventory/inventory_2026-03-15.csv
+2026-04-03 12:04:00,317 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/inventory/inventory_2026-03-16.csv
+2026-04-03 12:04:00,318 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/products/products.csv
+2026-04-03 12:04:00,319 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/shipments/shipments_2026-03-10.json
+2026-04-03 12:04:00,321 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/shipments/shipments_2026-03-11.json
+2026-04-03 12:04:00,322 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/shipments/shipments_2026-03-12.json
+2026-04-03 12:04:00,327 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/shipments/shipments_2026-03-13.json
+2026-04-03 12:04:00,328 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/shipments/shipments_2026-03-14.json
+2026-04-03 12:04:00,330 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/shipments/shipments_2026-03-15.json
+2026-04-03 12:04:00,331 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/shipments/shipments_2026-03-16.json
+2026-04-03 12:04:00,333 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/suppliers/suppliers.csv
+2026-04-03 12:04:00,335 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Skipping already downloaded file: raw/warehouses/warehouses.csv
+2026-04-03 12:04:00,338 | INFO | launchpad_capstone.include.extract_raw_from_S3 | extract_raw_file_s3 | Download job finished
+2026-04-03 12:04:22,449 | INFO | launchpad_capstone.include.extract_transactions_details | extract_transactions_details | Saving database STATE_FILE
+2026-04-03 12:04:29,015 | INFO | launchpad_capstone.include.store_details_extract | extract_stores_details | Downloading Raw Stores Details
+2026-04-03 12:04:34,877 | INFO | launchpad_capstone.include.store_details_extract | extract_stores_details | Stores Details file Ingested
+2026-04-03 12:06:56,087 | INFO | launchpad_capstone.include.S3_to_Snowflake | validate_load | products row count: 63
+2026-04-03 12:07:00,771 | INFO | launchpad_capstone.include.S3_to_Snowflake | validate_load | stores_sales row count: 1400000
+2026-04-03 12:07:05,605 | INFO | launchpad_capstone.include.S3_to_Snowflake | validate_load | warehouses row count: 10
+2026-04-03 12:07:10,191 | INFO | launchpad_capstone.include.S3_to_Snowflake | validate_load | inventory row count: 55968
+2026-04-03 12:07:18,375 | INFO | launchpad_capstone.include.S3_to_Snowflake | validate_load | shipments row count: 350000
+2026-04-03 12:07:23,410 | INFO | launchpad_capstone.include.S3_to_Snowflake | validate_load | stores_details row count: 800
+2026-04-03 12:07:28,564 | INFO | launchpad_capstone.include.S3_to_Snowflake | validate_load | suppliers row count: 12

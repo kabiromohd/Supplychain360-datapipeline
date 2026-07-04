@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_warehouses
+    description: "staging layer view of warehouses."
+    columns:
+      - name: warehouse_id
+        description: "Primary key for the warehouse."
+        tests:
+          - unique
+          - not_null
+
+      - name: city
+        description: "City of warehouse."
+        
+      - name: state
+        description: "State/Province of warehouse"

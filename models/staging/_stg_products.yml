@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: stg_products
+    description: "staging layer view of the product catalog."
+    columns:
+      - name: product_id
+        description: "Primary key for the product."
+        tests:
+          - unique
+          - not_null
+
+      - name: product_name
+        description: "The name of the item."
+        
+      - name: category
+        description: "Product grouping."
+
+      - name: brand
+        description: "The brand manufacturer of the product."
+
+      - name: supplier_id
+        description: "Foreign key linking to the supplier."
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_suppliers')
+                field: supplier_id
+      - name: unit_price
+        description: "The base price per unit."

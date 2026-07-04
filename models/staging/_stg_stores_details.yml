@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: stg_stores_details
+    description: "staging layer view of retail stores."
+    columns:
+      - name: store_id
+        description: "Primary key for the retail store."
+        tests:
+          - unique
+          - not_null
+      
+      - name: store_name
+        description: "The registered name of the store."
+      
+      - name: city
+        description: "City location of the store."
+      
+      - name: state
+        description: "State location of the store."
+      
+      - name: region
+        description: "Geographic regions"
+      
+      - name: store_open_date
+        description: "The date the store began operations."
