@@ -34,7 +34,7 @@ As a Data Engineer hired to design and implement this platform and If successful
 
 ## Project Overview
 
-This project implements a modern data platform that ingests raw data, loads it into Snowflake, and transforms it into analytics-ready models using dbt Cloud — all orchestrated by Apache Airflow.
+This project implements a modern data platform that ingests raw data, loads it into Snowflake, and transforms it into analytics-ready models using dbt Cloud - all orchestrated by Apache Airflow.
 
 The pipeline is designed with production-grade principles:
 
@@ -78,7 +78,7 @@ Docker            For containerization
 ## Setup Instructions
 - Clone Repository
   ```
-  git clone https://github.com/kabirmohdo/Supplychain360-data-platform.git
+  git clone https://github.com/kabirmohdo/Supplychain360-datapipeline.git
   
   cd Supplychain360-datapipeline
   ```
@@ -88,13 +88,16 @@ Docker            For containerization
   pip install -r requirements.txt
   ```
 - Start Airflow
+
   using Docker:
   ```
     docker-compose up -d
   ```
 
 ## Airflow Deployment
-Check that the containers are running and healthy, access the airflow UI via ```http://localhost:8080```
+Check that the containers are running and healthy. 
+
+Access the airflow UI via ```http://localhost:8080```
 
 ## Infrastructure
 Provision infrastructure with ```terraform```, run the below commands
