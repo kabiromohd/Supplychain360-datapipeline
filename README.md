@@ -54,10 +54,10 @@ The pipeline is designed with production-grade principles:
     - Regional sales demand
     
 ## Architecture Diagram
-<img width="1536" height="1024" alt="ChatGPT Image Apr 3, 2026, 03_39_33 PM" src="https://github.com/user-attachments/assets/205c75c8-a123-4087-9e04-daefd7a9b75f" />
 
+<img width="1536" height="1024" alt="dia" src="https://github.com/user-attachments/assets/b24805ba-bbd9-4053-b21f-a9e8c0bab378" />
 
-## Tech Stack
+## Project Tech Stack
 ```
 **Tool**              **Purpose**
 Apache Airflow	  Workflow orchestration
@@ -80,7 +80,7 @@ Docker            For containerization
   ```
   git clone https://github.com/kabirmohdo/Supplychain360-data-platform.git
   
-  cd Supplychain360-data-platform
+  cd Supplychain360-datapipeline
   ```
 
 - Install Dependencies
